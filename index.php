@@ -574,6 +574,38 @@
                     </a>
                 </div>
             </div>
+            <div class="col-12 portfolio_img col-md-4 col-lg-4
+                d-flex align-items-center justify-content-center" id="__projet_3">
+                <div class="bg-image ripple" data-mdb-ripple-color="light">
+                    <img src="img/ant-rozetsky-SLIFI67jv5k-unsplash.jpg" class="w-100" />
+                    <a class="d-flex flex-row flex-wrap justify-content-end" 
+                    id="savoirPlusReconversion" 
+                    href="" data-mdb-toggle="modal" data-mdb-target="#DelaunayModal">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                            <div class="d-flex flex-column 
+                            justify-content-center align-items-center h-100 text-center
+                            mt-3 pt-3">
+                                <p class="text-white mb-0">
+                                <h3>Numérisation de Procès Verbaux</h3>
+                                <h3 style="font-size:1.2em;">Delaunay et fils</h3>
+                                </p>
+                                <p class="text-white m-n2 p-n2">
+                                <h3>
+                                    <img src="img/languages_tools/php-original.svg" 
+                                        alt="logo php" class="minilogoLanguages" title="php">
+                                    <img src="img/languages_tools/javascript-plain.svg" 
+                                    alt="logo_js" class="minilogoLanguages" title="logo_js">
+                                    
+                                </h3>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hover-overlay">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
 
             <div class="col-12 portfolio_img col-md-4 col-lg-4
@@ -606,14 +638,41 @@
                     </a>
                 </div>
             </div>
-            
+            <div class="col-12 portfolio_img col-md-4 col-lg-4
+                d-flex align-items-center justify-content-center" id="__projet_2">
+                <div class="bg-image ripple" data-mdb-ripple-color="light" >
+                    <img src="img/joshua-hoehne-1UDjq8s8cy0-unsplash.jpg" class="w-100" />
+                    <a onclick="enCours()">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+                            <div class="d-flex flex-column 
+                            justify-content-center align-items-center h-100 text-center
+                            mt-3 pt-3">
+                                <p class="text-white mb-0" >
+                                    <h3 >(Wordreference.com <span style="font-weight:900">/</span> Jisho.org) Dictionary API</h3>
+                                </p>
+                                <p class="text-white m-n2 p-n2">
+                                <h3>
+                                <img src="img/languages_tools/php-original.svg" 
+                                        alt="logo php" class="minilogoLanguages" title="php">
+                                <img src="img/languages_tools/laravel-2.svg" 
+                                alt="logo php" class="minilogoLanguages" title="php">
+                                </h3>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hover-overlay">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>            
         
         
             <div class="col-12 portfolio_img col-md-4 col-lg-4
                 d-flex align-items-center justify-content-center" id="__projet_2">
                 <div class="bg-image ripple" data-mdb-ripple-color="light">
                     <img src="img/john-schnobrich-2FPjlAyMQTA-unsplash.jpg" class="w-100" />
-                    <a onclick="enCours()">
+                    <a onclick="prochainement()">
                         <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
                             <div class="d-flex flex-column 
                             justify-content-center align-items-center h-100 text-center
@@ -640,32 +699,7 @@
                 </div>
             </div>
 
-            <div class="col-12 portfolio_img col-md-4 col-lg-4
-                d-flex align-items-center justify-content-center" id="__projet_2">
-                <div class="bg-image ripple" data-mdb-ripple-color="light" >
-                    <img src="img/joshua-hoehne-1UDjq8s8cy0-unsplash.jpg" class="w-100" />
-                    <a onclick="prochainement()">
-                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                            <div class="d-flex flex-column 
-                            justify-content-center align-items-center h-100 text-center
-                            mt-3 pt-3">
-                                <p class="text-white mb-0" >
-                                    <h3 >(Wordreference.com <span style="font-weight:900">/</span> Jisho.org) Dictionary API</h3>
-                                </p>
-                                <p class="text-white m-n2 p-n2">
-                                <h3>
-                                    <img src="img/languages_tools/python-original.svg" 
-                                        alt="logo_python" class="minilogoLanguages" title="logo_python">
-                                </h3>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="hover-overlay">
-                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+
         </div>  <!-- fin images -->
             
             
@@ -827,6 +861,87 @@
         </div>
         <div
             class="modal fade"
+            id="DelaunayModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel2"
+            aria-hidden="true">
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" 
+                        id="exampleModalLabel2">
+                            <span id="nbLimitesAPI">
+                            Numérisation de Procès Verbaux : description du projet </span></h5>
+                        <button
+                        type="button"
+                        class="btn-close"
+                        data-mdb-dismiss="modal"
+                        aria-label="Fermer"
+                        id="FermerButtonModal"
+                        ></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p class="mx-5 px-5 text-justify d-flex flex-column
+                            align-items-center justify-content-center">
+                        
+                            <p>
+
+                                 <p>
+                                 L'entreprise Delaunay et fils spécialisée dans la fabrication d’appareils sous pression 
+                                 (ballons, colonnes, faisceaux d’aéroréfrigérants, etc) a toujours enregistré ses procédures,
+                                 notamment ses procès verbaux sous format papier. L'objectif prinicipal était de créer une application web
+                                 responsive permettant aux divers intervenants de la société de réaliser leurs documents sur tablette, 
+                                 en ayant la possibilité d'y ajouter des pièces jointes puis d'imprimer le tout au format pdf.
+                                </p> 
+                                
+                                <p>
+                                     <span style="font-weight: 700; margin-bottom: 20px;">Fonctionnalités principales :</span> <br/>
+                                    - Interface graphique responsive <br/>
+                                    - Enregistrement des procédures en base de données  <br/>
+                                    - Signature electronique <br/>
+                                    - Sécurisation via un système de login  <br/>
+                                    - Création d'un fichier pdf à la fin de chaque procès verbal <br/>
+
+                                </p>
+                               
+
+                            </p>  
+                            
+
+                            <!---------------------------->
+                            <!-- Créer mini carroussel  -->
+                            <!---------------------------->
+
+
+                            <div class="my-5 d-flex flex-row
+                            align-items-center justify-content-around " id="cardsModalPortfolio">
+                                <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
+                                    <img src="img/preview_PV_delaunay.png" class="img-fluid" 
+                                    width="1600" height="800"/>
+                                    <a href="https://www.pvdelaunay.celinelouvel.fr/delaunay_pv/index.php">
+                                        <div class="mask d-flex flex-row align-items-center
+                                        justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                            <p class="text-white" id="textImageModalPortfolio" 
+                                            style="font-size:2em; position:relative; top: 20px;">
+                                                L'Application</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>  
+                        </p>     
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                        Fermer
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal fade"
             id="ouJeVaisModal"
             tabindex="-1"
             aria-labelledby="exampleModalLabel2"
@@ -867,7 +982,7 @@
                                     <a href="img/ouJeVaisApp.png">
                                         <div class="mask d-flex flex-row align-items-center
                                         justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
-                                            <p class="text-white" id="textImageModalPortfolio">l'Application</p>
+                                            <p class="text-white" id="textImageModalPortfolio">Aperçu</p>
                                         </div>
                                     </a>
                                 </div>
