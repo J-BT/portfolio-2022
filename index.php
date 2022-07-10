@@ -482,8 +482,9 @@
             </div>
             <div class="col-10 col-md-8 col-lg-6 mt-5" id="__portfolio">
                 <div class="jumbotron
-                    d-flex justify-content-center align-items-center">
-                    <h1 class="" id = "titresParties">Portfolio</h1>
+                    d-flex flex-column justify-content-center align-items-center">
+                    <div class="my-0 py-0 alert alert-info" role="alert" style="font-size:0.75em;">Nouvel herbergement bientôt !</div>
+                    <h1 class="" id = "titresParties">Portfolio</h1> 
                 </div>
             </div>
             <div class="col-1 col-md-2 col-lg-3">
@@ -655,7 +656,7 @@
                                 <img src="img/languages_tools/php-original.svg" 
                                         alt="logo php" class="minilogoLanguages" title="php">
                                 <img src="img/languages_tools/laravel-2.svg" 
-                                alt="logo php" class="minilogoLanguages" title="php">
+                                alt="logo laravel" class="minilogoLanguages" title="laravel">
                                 </h3>
                                 </p>
                             </div>
@@ -678,16 +679,16 @@
                             justify-content-center align-items-center h-100 text-center
                             mt-3 pt-3 ">
                                 <p class="text-white mb-0">
-                                <h3>Site Web Pro</h3>
+                                <h3>(Futur) Portfolio</h3>
                                 </p>
                                 <p class="text-white m-n2 p-n2">
                                 <h3>
-                                <img src="img/languages_tools/__csharp_original_logo_icon_146578.svg" 
-                                    alt="logo c#" class="minilogoLanguages" title="c#">
-                                <img src="img/languages_tools/asp.png" 
-                                    alt="asp.net" class="minilogoLanguages" title="asp.net">
-                                <img src="img/languages_tools/react-original-wordmark.svg" 
-                                alt="react js" class="minilogoLanguages" title="react js">
+                                <img src="img/languages_tools/php-original.svg" 
+                                alt="logo php" class="minilogoLanguages" title="php">
+                                <img src="img/languages_tools/laravel-2.svg" 
+                                alt="logo laravel" class="minilogoLanguages" title="laravel">
+                                <img src="img/languages_tools/javascript-plain.svg" 
+                                alt="logo_js" class="minilogoLanguages" title="logo_js">
                                 </h3>
                                 </p>
                             </div>
