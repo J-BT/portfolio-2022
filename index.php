@@ -761,13 +761,23 @@
                                     <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
                                         <img src="img/ticker_bfmbusiness.png" class="img-fluid" 
                                         width="1600" height="800"/>
-                                        
-                                        <div class="mask d-flex flex-row align-items-center
-                                        justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
-                                            
-                                        </div>
-                                        
+                                        <a href="img/ticker_bfmbusiness.png">
+                                            <div class="mask d-flex flex-row align-items-center
+                                            justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                            </div>
+                                        </a>
+
                                     </div>
+                                <!--  <div class="mx-2 my-2 bg-image" id="imageModalPortfolio">
+                                            <img src="img/ouJeVaisApp.png" class="img-fluid" 
+                                            width="1600" height="800"/>
+                                            <a href="img/ouJeVaisApp.png">
+                                                <div class="mask d-flex flex-row align-items-center
+                                                justify-content-around" style="background-color: rgba(0, 0, 0, 0.4);">
+                                                    <p class="text-white" id="textImageModalPortfolio">Aperçu</p>
+                                        </div> -->
+                                    </a>
+                                </div>
                                 </div> 
                                     
                                     
